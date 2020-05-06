@@ -7,11 +7,11 @@ app allows user to navigate from master view to detail view.
  
 
 ###### iOS screenshots potrait mode
-<img src="example1.png" width="300">  <img src="example2.png" width="300">
+<img src="example1.png" width="300">  <img src="example2.png" width="300" style="margin-left:30">
 
 
 ###### iOS screenshots landscape mode
-<img src="example2.png" width="300">  <img src="example3.png" width="300">
+<img src="example2.png" width="300">  <img src="example3.png" width="300" style="margin-left:30">
     
 
 ###### App architecture
