@@ -16,10 +16,12 @@
 		DF7E0DD2245F27E400D91EF5 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7E0DD1245F27E400D91EF5 /* DetailViewController.swift */; };
 		DF7E0DD7245F27E500D91EF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF7E0DD6245F27E500D91EF5 /* Assets.xcassets */; };
 		DF7E0DDA245F27E500D91EF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF7E0DD8245F27E500D91EF5 /* LaunchScreen.storyboard */; };
-		DF7E0DE5245F27E500D91EF5 /* MasterDetailsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7E0DE4245F27E500D91EF5 /* MasterDetailsTests.swift */; };
 		DF7E0DF0245F27E500D91EF5 /* MasterDetailsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7E0DEF245F27E500D91EF5 /* MasterDetailsUITests.swift */; };
 		DF7E0DFE245F2A3900D91EF5 /* MasterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7E0DFD245F2A3900D91EF5 /* MasterTableViewController.swift */; };
 		DF7E0E00245F2F0400D91EF5 /* MasterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7E0DFF245F2F0400D91EF5 /* MasterTableViewCell.swift */; };
+		DF92A3DD2462267700856FBA /* APITesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF92A3DC2462267700856FBA /* APITesting.swift */; };
+		DFB322712462394500C94899 /* MasterTableViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB322702462394500C94899 /* MasterTableViewControllerTest.swift */; };
+		DFB322732462402200C94899 /* DetailViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB322722462402200C94899 /* DetailViewControllerTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,13 +54,15 @@
 		DF7E0DD9245F27E500D91EF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DF7E0DDB245F27E500D91EF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF7E0DE0245F27E500D91EF5 /* MasterDetailsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MasterDetailsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF7E0DE4245F27E500D91EF5 /* MasterDetailsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterDetailsTests.swift; sourceTree = "<group>"; };
 		DF7E0DE6245F27E500D91EF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF7E0DEB245F27E500D91EF5 /* MasterDetailsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MasterDetailsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF7E0DEF245F27E500D91EF5 /* MasterDetailsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterDetailsUITests.swift; sourceTree = "<group>"; };
 		DF7E0DF1245F27E500D91EF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF7E0DFD245F2A3900D91EF5 /* MasterTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterTableViewController.swift; sourceTree = "<group>"; };
 		DF7E0DFF245F2F0400D91EF5 /* MasterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterTableViewCell.swift; sourceTree = "<group>"; };
+		DF92A3DC2462267700856FBA /* APITesting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APITesting.swift; sourceTree = "<group>"; };
+		DFB322702462394500C94899 /* MasterTableViewControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterTableViewControllerTest.swift; sourceTree = "<group>"; };
+		DFB322722462402200C94899 /* DetailViewControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewControllerTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,8 +156,10 @@
 		DF7E0DE3245F27E500D91EF5 /* MasterDetailsTests */ = {
 			isa = PBXGroup;
 			children = (
-				DF7E0DE4245F27E500D91EF5 /* MasterDetailsTests.swift */,
 				DF7E0DE6245F27E500D91EF5 /* Info.plist */,
+				DF92A3DC2462267700856FBA /* APITesting.swift */,
+				DFB322702462394500C94899 /* MasterTableViewControllerTest.swift */,
+				DFB322722462402200C94899 /* DetailViewControllerTest.swift */,
 			);
 			path = MasterDetailsTests;
 			sourceTree = "<group>";
@@ -313,7 +319,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF7E0DE5245F27E500D91EF5 /* MasterDetailsTests.swift in Sources */,
+				DF92A3DD2462267700856FBA /* APITesting.swift in Sources */,
+				DFB322712462394500C94899 /* MasterTableViewControllerTest.swift in Sources */,
+				DFB322732462402200C94899 /* DetailViewControllerTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,6 +479,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PCHSR4U85Y;
 				INFOPLIST_FILE = MasterDetails/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -488,6 +497,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PCHSR4U85Y;
 				INFOPLIST_FILE = MasterDetails/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -506,6 +516,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PCHSR4U85Y;
 				INFOPLIST_FILE = MasterDetailsTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -527,6 +538,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PCHSR4U85Y;
 				INFOPLIST_FILE = MasterDetailsTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -547,6 +559,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PCHSR4U85Y;
 				INFOPLIST_FILE = MasterDetailsUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -566,6 +579,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PCHSR4U85Y;
 				INFOPLIST_FILE = MasterDetailsUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
