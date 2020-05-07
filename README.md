@@ -21,7 +21,6 @@ app allows user to navigate from master view to detail view.
 - On root Master folder where MasterTableViewController and MasterTableViewCell
 - Model folder has UIDList which has data model struct of API Result
 - HTTP folder has HTTPClient which is used for making API call, GenericAPIClient core api call is invoked, Endpoint URL end point is setup.
-- Test folder is used for running jest enzyme test cases
 
 ![Architecture](architecture.png)
 
